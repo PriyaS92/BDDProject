@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Check that main elements on Google Homepage are displayed",
+        "description": "",
+        "id": "google-homepage;check-that-main-elements-on-google-homepage-are-displayed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 151955812037,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I launch IE browser with \"https://hub.uhg.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://hub.uhg.com/",
+                  "offset": 26
+                }
+              ],
+              "location": "Login.i_launch_IE_browser_with(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1952098395,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter the text in textbox with \"rewards\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rewards",
+                  "offset": 37
+                }
+              ],
+              "location": "Test.user_enter_the_text_in_textbox_with(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Google Homepage",
+    "description": "This feature verifies the functionality on Google Homepage",
+    "id": "google-homepage",
+    "keyword": "Feature",
+    "uri": "src/test/resources/FeatureFiles/Test.feature"
+  }
+]
